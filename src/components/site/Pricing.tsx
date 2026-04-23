@@ -4,10 +4,9 @@ import { Check, Download } from "lucide-react";
 const items = [
   "1 台设备永久授权",
   "免费版本更新(含大版本)",
-  "微信社群技术支持",
+  "QQ 社群技术支持",
   "本地加密数据存储",
   "AI 谈心记录生成",
-  "述职数据看板导出",
 ];
 
 export const Pricing = () => {
