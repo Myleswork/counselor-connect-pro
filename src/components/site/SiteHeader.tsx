@@ -5,6 +5,7 @@ import logo from "@/assets/logo.png";
 
 const links = [
   { href: "#features", label: "核心功能" },
+  { href: "#screenshots", label: "软件实拍" },
   { href: "#workflow", label: "工作流" },
   { href: "#security", label: "数据安全" },
   { href: "#pricing", label: "定价" },

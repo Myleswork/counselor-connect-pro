@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { Hero } from "@/components/site/Hero";
 import { PainSolution } from "@/components/site/PainSolution";
 import { Features } from "@/components/site/Features";
+import { ScreenshotShowcase } from "@/components/site/ScreenshotShowcase";
 import { Workflow } from "@/components/site/Workflow";
 import { Security } from "@/components/site/Security";
 import { Pricing } from "@/components/site/Pricing";
@@ -44,6 +45,7 @@ const Index = () => {
         <Hero />
         <PainSolution />
         <Features />
+        <ScreenshotShowcase />
         <Workflow />
         <Security />
         <Pricing />

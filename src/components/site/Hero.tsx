@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
-import dashboard from "@/assets/dashboard-hero.jpg";
+import dashboard from "@/assets/screen-dashboard.png";
 
 export const Hero = () => {
   return (
@@ -58,19 +58,19 @@ export const Hero = () => {
                 <span className="mockup-dot bg-[hsl(45_95%_55%)]" />
                 <span className="mockup-dot bg-[hsl(140_55%_50%)]" />
                 <span className="ml-3 truncate text-xs text-muted-foreground">
-                  Counselor Connect — 学工事务工作台
+                  Counselor Connect — 本地化学生支持管理系统
                 </span>
               </div>
               <img
                 src={dashboard}
-                alt="Counselor Connect 学生管理与述职数据看板截图"
+                alt="Counselor Connect 软件总览：今日工作量、本月谈心人次、高危预警与查课查寝数据看板"
                 width={1920}
                 height={1080}
                 className="block w-full"
               />
             </div>
             <div className="mt-3 text-center text-xs text-muted-foreground">
-              软件主界面 · 学生雷达画像 + 谈话记录 + 数据看板
+              软件总览 · 当日工作量、本月谈心人次、高危预警一屏掌握
             </div>
           </div>
         </div>
