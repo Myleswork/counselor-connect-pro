@@ -27,9 +27,15 @@ export const Pricing = () => {
         <div className="mx-auto mt-12 max-w-xl">
           <div className="overflow-hidden rounded-2xl border border-primary/20 bg-card shadow-elevated">
             <div className="bg-gradient-cta px-8 py-7 text-primary-foreground">
-              <div className="text-sm/6 opacity-80">个人永久版 · Personal Lifetime</div>
-              <div className="mt-2 flex items-baseline gap-2">
-                <span className="text-5xl font-bold tracking-tight">¥299</span>
+              <div className="flex items-center justify-between">
+                <div className="text-sm/6 opacity-80">个人永久版 · Personal Lifetime</div>
+                <span className="rounded-full bg-white/15 px-3 py-1 text-xs font-medium ring-1 ring-white/25 backdrop-blur">
+                  🎉 内测限时特惠
+                </span>
+              </div>
+              <div className="mt-3 flex items-baseline gap-3">
+                <span className="text-5xl font-bold tracking-tight">¥6</span>
+                <span className="text-lg line-through opacity-60">¥66</span>
                 <span className="text-sm opacity-80">/ 永久买断</span>
               </div>
               <p className="mt-3 text-sm opacity-90">
