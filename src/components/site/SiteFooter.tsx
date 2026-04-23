@@ -31,7 +31,7 @@ export const SiteFooter = () => {
             <div className="text-sm font-semibold text-foreground">联系开发者</div>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
-                <MessageCircle className="h-4 w-4" /> 微信:counselor_connect
+                <MessageCircle className="h-4 w-4" /> QQ 社群:counselor_connect
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" /> 邮箱:hello@counselor-connect.app
