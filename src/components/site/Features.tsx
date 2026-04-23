@@ -1,37 +1,49 @@
 import {
+  Trophy,
   Users,
   Mic,
   ClipboardCheck,
-  PieChart,
+  BedDouble,
+  Database,
   Lock,
   RefreshCw,
 } from "lucide-react";
 
 const features = [
   {
+    icon: Trophy,
+    title: "成长轨迹与九大职能",
+    desc: "按九大职能维度自动绘制雷达图,工作纪实、项目突破、个人成就一并沉淀。",
+  },
+  {
     icon: Users,
     title: "穿透式学生档案",
-    desc: "统一维护基本信息与跟进轨迹,一处更新,全局可查。",
+    desc: "卡片化展示班级、专业、政治面貌、宿舍、电话,支持新增、编辑、批量管理。",
   },
   {
     icon: Mic,
     title: "AI 智能谈心谈话",
-    desc: "自动提炼录音内容,按谈话五步法结构化生成谈话要点。",
+    desc: "上传本地录音,AI 按五步法自动整理谈话要点,关注级别与谈话主题可视化。",
   },
   {
     icon: ClipboardCheck,
-    title: "查课查寝留痕",
-    desc: "异常情况标签化,自动形成持续跟进的工作闭环。",
+    title: "查课记录",
+    desc: "缺课/旷课人次实时统计,重点关注学生与课程自动排序,14 天趋势随时回看。",
   },
   {
-    icon: PieChart,
-    title: "述职数据看板",
-    desc: "直观展示辅导员九大职能的发力分布与时间投入。",
+    icon: BedDouble,
+    title: "查寝留痕",
+    desc: "宿舍走访状态分布,卫生/纪律/异常情况打标签,持续跟进直至问题闭合。",
+  },
+  {
+    icon: Database,
+    title: "数据导入导出",
+    desc: "Excel/CSV 字段映射批量导入,谈心、查课、查寝、档案一键导出 Excel。",
   },
   {
     icon: Lock,
     title: "本地加密存储",
-    desc: "断网亦可运行,数据加密落盘,稳稳锁在个人电脑里。",
+    desc: "断网亦可运行,数据加密落盘,稳稳锁在个人电脑里,零云端零上传。",
   },
   {
     icon: RefreshCw,
