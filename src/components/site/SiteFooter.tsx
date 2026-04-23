@@ -31,10 +31,10 @@ export const SiteFooter = () => {
             <div className="text-sm font-semibold text-foreground">联系开发者</div>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
-                <MessageCircle className="h-4 w-4" /> QQ 社群:counselor_connect
+                <MessageCircle className="h-4 w-4" /> QQ 社群:待创建（xhs:myles）
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="h-4 w-4" /> 邮箱:hello@counselor-connect.app
+                <Mail className="h-4 w-4" /> 邮箱:mingsheng1712@163.com
               </li>
               <li className="flex items-center gap-2">
                 <Github className="h-4 w-4" /> 基于 GitHub Pages 强力驱动
