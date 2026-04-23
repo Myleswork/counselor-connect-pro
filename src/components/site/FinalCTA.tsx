@@ -17,14 +17,18 @@ export const FinalCTA = () => {
             size="xl"
             className="bg-card text-primary hover:bg-card/90 shadow-mockup"
           >
-            <a href="#">
+            <a
+              href="https://gitee.com/zhaosw_myles/counselor_platform/releases"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <Download className="h-5 w-5" />
               立即下载 Counselor Connect V1.8.0
             </a>
           </Button>
         </div>
         <div className="mt-5 text-sm text-primary-foreground/70">
-          Windows 10 / 11 (64 位) · 安装包约 86 MB · 永久免费试用
+          Windows 10 / 11 (64 位) · 通过 Gitee Releases 分发 · 永久免费更新
         </div>
       </div>
     </section>

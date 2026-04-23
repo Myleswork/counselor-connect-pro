@@ -53,7 +53,7 @@ export const SiteHeader = () => {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button asChild variant="hero" size="default">
-            <a href="#download">
+            <a href="https://gitee.com/zhaosw_myles/counselor_platform/releases" target="_blank" rel="noreferrer noopener">
               <Download className="h-4 w-4" />
               免费下载 Windows 版
             </a>
@@ -83,7 +83,12 @@ export const SiteHeader = () => {
               </a>
             ))}
             <Button asChild variant="hero" className="mt-2">
-              <a href="#download" onClick={() => setOpen(false)}>
+              <a
+                href="https://gitee.com/zhaosw_myles/counselor_platform/releases"
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={() => setOpen(false)}
+              >
                 <Download className="h-4 w-4" />
                 免费下载 Windows 版
               </a>
