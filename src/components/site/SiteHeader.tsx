@@ -55,7 +55,7 @@ export const SiteHeader = () => {
           <Button asChild variant="hero" size="default">
             <a href="https://gitee.com/zhaosw_myles/counselor_platform/releases" target="_blank" rel="noreferrer noopener">
               <Download className="h-4 w-4" />
-              免费下载 Windows 版
+              下载 Windows 版
             </a>
           </Button>
         </div>
@@ -90,7 +90,7 @@ export const SiteHeader = () => {
                 onClick={() => setOpen(false)}
               >
                 <Download className="h-4 w-4" />
-                免费下载 Windows 版
+                下载 Windows 版
               </a>
             </Button>
           </div>

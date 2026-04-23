@@ -28,7 +28,7 @@ export const Hero = () => {
               <Button asChild variant="hero" size="lg">
                 <a href="https://gitee.com/zhaosw_myles/counselor_platform/releases" target="_blank" rel="noreferrer noopener">
                   <Download className="h-5 w-5" />
-                  免费下载 Windows 版
+                  下载 Windows 版
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
