@@ -50,9 +50,13 @@ export const Pricing = () => {
               </ul>
 
               <Button asChild variant="hero" size="lg" className="mt-7 w-full">
-                <a href="#download">
+                <a
+                  href="https://gitee.com/zhaosw_myles/counselor_platform/releases"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <Download className="h-5 w-5" />
-                  下载试用 · 满意再激活
+                  前往 Gitee 下载 Windows 版
                 </a>
               </Button>
 

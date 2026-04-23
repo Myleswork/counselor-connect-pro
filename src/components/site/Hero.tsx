@@ -26,9 +26,9 @@ export const Hero = () => {
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Button asChild variant="hero" size="lg">
-                <a href="#download">
+                <a href="https://gitee.com/zhaosw_myles/counselor_platform/releases" target="_blank" rel="noreferrer noopener">
                   <Download className="h-5 w-5" />
-                  免费下载试用版
+                  免费下载 Windows 版
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">

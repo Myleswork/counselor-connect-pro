@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Trophy, Users, MessageSquare, ClipboardCheck, BedDouble, Database } from "lucide-react";
+import { Trophy, Users, MessageSquare, ClipboardCheck, BedDouble, Database, Settings } from "lucide-react";
 import growth from "@/assets/screen-growth.png";
 import students from "@/assets/screen-students.png";
 import talks from "@/assets/screen-talks.png";
@@ -7,6 +7,7 @@ import talkNew from "@/assets/screen-talk-new.png";
 import attendance from "@/assets/screen-attendance.png";
 import dorm from "@/assets/screen-dorm.png";
 import importScreen from "@/assets/screen-import.png";
+import settings from "@/assets/screen-settings.png";
 
 type Tab = {
   key: string;
@@ -81,6 +82,15 @@ const tabs: Tab[] = [
     desc: "下载标准模板,上传名单文件后自动预览前 5 条记录,字段映射可手动微调,确认无误再执行整批导入,谈心/查课/查寝亦支持导出 Excel。",
     image: importScreen,
     alt: "数据管理页面 · CSV/Excel 字段映射与导入预览",
+  },
+  {
+    key: "settings",
+    icon: Settings,
+    label: "系统设置",
+    title: "校徽 · 称呼 · API · 备份,一处统一配置",
+    desc: "上传校徽自定义侧边栏,配置讯飞星火 API 解锁录音转写,选择本地备份目录定时自动保存,支持账号密码修改与一键数据恢复,内置版本检测。",
+    image: settings,
+    alt: "系统设置页面 · 校徽 Logo、API 配置、本地备份与账号管理",
   },
 ];
 
